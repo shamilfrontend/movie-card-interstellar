@@ -10,7 +10,7 @@
 <body>
 
 <div class="wrapper">
-    <audio controls>
+    <audio controls autoplay id="myAudio">
         <source src="./music/interstellar_zack_hemsey_-the_way.mp3" type="audio/mp3">
     </audio>
     <div class="card">
@@ -69,5 +69,11 @@
     </div>
 </div>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        let audio = document.getElementById("myAudio");
+        audio.volume = 0.3;
+    })
+</script>
 </body>
 </html>
