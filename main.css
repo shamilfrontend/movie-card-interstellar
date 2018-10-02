@@ -1,3 +1,21 @@
+@keyframes bgAnimate {
+    0% {
+        background-image: url("./img/bg.jpg")
+    }
+
+    25% {
+        background-image: url("./img/bg1.jpg")
+    }
+
+    50% {
+        background-image: url("./img/bg2.jpeg")
+    }
+
+    75% {
+        background-image: url("./img/bg3.jpg")
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +27,8 @@ body {
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
+
+    animation: bgAnimate 30s infinite cubic-bezier(1,0,.5,0);
 
     font-family: 'PT Sans', sans-serif;
 }
