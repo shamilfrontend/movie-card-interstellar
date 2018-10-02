@@ -44,7 +44,7 @@ audio {
     width: 300px;
     height: 450px;
     background-color: #000000;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 5px 10px rgb(47, 39, 46);
 }
 .card:hover .details {
     bottom: 0;
